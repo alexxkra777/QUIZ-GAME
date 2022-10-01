@@ -1,0 +1,230 @@
+@media (max-width: 992px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body {
+       background-color: #00BCD4;
+       font-size: 80%;
+    }
+
+    #bg img{
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: -1;
+     }
+    #nav{
+        z-index: 2;
+     }
+     
+     #ghost-center {
+        background-color: rgba(255, 255, 255, 0.80);
+        height: 400px;
+        width: 300px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -194px 0 0 -147px;
+        border-radius: 40px;
+        z-index:100;
+     }
+     #ghost-center a{
+        margin-top: 30%;
+     }
+     #login_btn{
+        margin-left: 34%;
+        background-color: rgb(0, 38, 151);
+        border-color: rgb(0, 17, 68);
+     }
+     #regis_btn{
+         margin-left: 25%;
+         background-color: rgb(0, 38, 151);
+         border-color: rgb(0, 17, 68);
+     }
+    #login{
+        margin: 15%;
+    }
+    #submit_login{
+        margin-left: 64%;
+    }
+    .closer_icon{
+        margin: -12%;
+        margin-top: -35%;
+        width: 50px;
+        color: rgb(69, 69, 69);
+    }
+    .closer_icon:hover{
+        cursor: pointer;
+    }
+    #regis>.closer_icon{
+        margin: -10% !important;
+        margin-top: -50% !important;
+    }
+    #name{
+       margin-top: -4%;
+    }
+    .arrow_right{
+        height: 50px;
+        color: rgb(69, 69, 69);
+        margin-left: 80%;
+    }
+    .arrow_right:hover{
+        cursor: pointer; 
+    }
+    .arrow_left{
+        height: 50px;
+        color: rgb(69, 69, 69);
+        margin-left: 3%;
+    }
+    .arrow_left:hover{
+        cursor: pointer; 
+    }
+    #arrow_right_surname{
+        margin-top: -34%;
+    }
+    #arrow_right_email{
+       margin-top: -34%;
+    }
+    #submit_regis{
+       margin-left: 67%;
+    }
+    #regis{
+        margin: 13%;
+        margin-top: 25%;
+    }
+    #fail{
+        margin: auto;
+        margin-left: 42%;
+        width: 25%;
+        background-color: rgb(252, 143, 143);
+        padding: 15px;
+        border-radius: 35px;
+        margin-top: 2%;
+    }
+    #fail>p{
+        color: white;
+        font-size: 20px;
+        margin-left: 25%;
+        margin-top: 4%;
+    }
+}
+
+@media (min-width: 993px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body {
+       background-color: #00BCD4;
+       font-size: 80%;
+    }
+    #bg img{
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: -1;
+     }
+    #nav{
+        z-index: 2;
+     }
+     
+     #ghost-center {
+        background-color: rgba(255, 255, 255, 0.80);
+        height: 500px;
+        width: 700px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -275px 0 0 -260px;
+        border-radius: 40px;
+        z-index:100;
+     }
+     #ghost-center a{
+        margin-top: 30%;
+     }
+     #login_btn{
+        margin-left: 34%;
+        background-color: rgb(0, 38, 151);
+        border-color: rgb(0, 17, 68);
+     }
+     #regis_btn{
+         margin-left: 5%;
+         background-color: rgb(0, 38, 151);
+         border-color: rgb(0, 17, 68);
+     }
+    #login{
+        margin: 15%;
+    }
+    #submit_login{
+        margin-left: 80%;
+    }
+    .closer_icon{
+        margin: -12%;
+        margin-top: -35%;
+        width: 50px;
+        color: rgb(69, 69, 69);
+    }
+    .closer_icon:hover{
+        cursor: pointer;
+    }
+    #regis>.closer_icon{
+        margin: -10% !important;
+        margin-top: -50% !important;
+    }
+    #name{
+       margin-top: -4%;
+    }
+    .arrow_right{
+        height: 50px;
+        color: rgb(69, 69, 69);
+        margin-left: 80%;
+    }
+    .arrow_right:hover{
+        cursor: pointer; 
+    }
+    .arrow_left{
+        height: 50px;
+        color: rgb(69, 69, 69);
+        margin-left: 3%;
+    }
+    .arrow_left:hover{
+        cursor: pointer; 
+    }
+    #arrow_right_surname{
+        margin-top: -15%;
+    }
+    #arrow_right_email{
+       margin-top: -15%;
+    }
+    #submit_regis{
+       margin-left: 80%;
+    }
+    #regis{
+        margin: 13%;
+        margin-top: 25%;
+    }
+    #fail{
+        margin: auto;
+        margin-left: 42%;
+        width: 25%;
+        background-color: rgb(252, 143, 143);
+        padding: 15px;
+        border-radius: 35px;
+        margin-top: 2%;
+    }
+    #fail>p{
+        color: white;
+        font-size: 20px;
+        margin-left: 25%;
+        margin-top: 4%;
+    }
+}

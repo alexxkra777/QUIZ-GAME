@@ -1,0 +1,930 @@
+@media (max-width: 449px){
+    body{
+        background-color: rgb(255, 255, 255);
+    }
+    .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+        border-bottom: 2px solid rgb(201, 201, 201);
+        padding: 1%;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        left: 65%;
+    }
+    
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+    
+    #acc:hover .dropdown-content {
+        display: block;
+    }
+    #header{
+        margin: auto;
+        width: 50%;
+        background-color: rgb(143, 212, 252);
+        padding: 50px;
+        border-radius: 35px;
+        margin-top: 3%;
+    }
+    #header>h1{
+        color: white;
+        text-align: center;
+    }
+    
+    
+    
+    #first{
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        background-color: rgb(143, 212, 252);
+        border-radius: 50px;
+        margin-top: 2%;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+    #first:hover{
+        cursor: pointer;
+    }
+    .play_div{
+        position: absolute;
+        height: 15%;
+        width: 61%;
+        border-radius: 50px;
+        background-color: blue;
+        display: none;
+    }
+    #play_div_first{
+        right: 20%;
+        top: 37%;
+    }
+    #play_div_second{
+        right: 18%;
+        top: 49%;
+    }
+    .closer_icon{
+        margin-left: 4%;
+        margin-top: -24%;
+        width: 50px;
+        color: rgb(213 213 213);
+    }
+    .closer_icon:hover{
+        cursor: pointer;
+    }
+    .btn_play{
+        margin-top: 34%;
+        margin-left: 11%;
+    }
+    #second{
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        background-color: rgb(143, 212, 252);
+        border-radius: 50px;
+        margin-top: 1%;
+        margin-left: 40%;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+    #second_deactivated{
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        background-color: grey;
+        border-radius: 50px;
+        margin-top: 1%;
+        margin-left: 40%;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+    #second:hover{
+        cursor: pointer;
+    }
+    #third{
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        background-color: rgb(143, 212, 252);
+        border-radius: 50px;
+        margin-top: 1%;
+        margin-left: 45%;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+    #third_deactivated{
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        background-color: grey;
+        border-radius: 50px;
+        margin-top: 1%;
+        margin-left: 45%;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+    #third:hover{
+        cursor: pointer;
+    }
+    #fourth{
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        background-color: rgb(143, 212, 252);
+        border-radius: 50px;
+        margin-top: 1%;
+        margin-left: 50%; 
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+    #fourth_deactivated{
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        background-color: grey;
+        border-radius: 50px;
+        margin-top: 1%;
+        margin-left: 50%; 
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+    #fourth:hover{
+        cursor: pointer;
+    }
+    #fifth{
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        background-color: rgb(143, 212, 252);
+        border-radius: 50px; 
+        margin-top: 1%;
+        margin-left: 45%;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; 
+    }
+    #fifth_deactivated{
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        background-color: grey;
+        border-radius: 50px; 
+        margin-top: 1%;
+        margin-left: 45%;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; 
+    }
+    #fifth:hover{
+        cursor: pointer;
+    }
+}
+@media (min-width: 820px){
+    body{
+        background-color: rgb(255, 255, 255);
+    }
+    .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+        border-bottom: 2px solid rgb(201, 201, 201);
+        padding: 1%;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        left: 65%;
+    }
+    
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+    
+    #acc:hover .dropdown-content {
+        display: block;
+    }
+    #header{
+        margin: auto;
+        width: 50%;
+        background-color: rgb(143, 212, 252);
+        padding: 50px;
+        border-radius: 35px;
+        margin-top: 3%;
+    }
+    #header>h1{
+        color: white;
+        text-align: center;
+    }
+    
+    
+    #first{
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        background-color: rgb(143, 212, 252);
+        border-radius: 50px;
+        margin-top: 2%;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+    #first:hover{
+        cursor: pointer;
+    }
+    .play_div{
+        position: absolute;
+        height: 17%;
+        width: 61%;
+        border-radius: 50px;
+        background-color: blue;
+        display: none;
+    }
+    #play_div_first{
+        right: 20%;
+        top: 40%;
+    }
+    #play_div_second{
+        right: 25%;
+        top: 53%;
+    }
+    .closer_icon{
+        margin-left: 4%;
+        margin-top: -24%;
+        width: 50px;
+        color: rgb(213 213 213);
+    }
+    .closer_icon:hover{
+        cursor: pointer;
+    }
+    .btn_play{
+        margin-top: 21%;
+        margin-left: 31%;
+    }
+    #second{
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        background-color: rgb(143, 212, 252);
+        border-radius: 50px;
+        margin-top: 1%;
+        margin-left: 40%;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+    #second_deactivated{
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        background-color: grey;
+        border-radius: 50px;
+        margin-top: 1%;
+        margin-left: 40%;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+    #second:hover{
+        cursor: pointer;
+    }
+    #third{
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        background-color: rgb(143, 212, 252);
+        border-radius: 50px;
+        margin-top: 1%;
+        margin-left: 45%;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+    #third_deactivated{
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        background-color: grey;
+        border-radius: 50px;
+        margin-top: 1%;
+        margin-left: 45%;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+    #third:hover{
+        cursor: pointer;
+    }
+    #fourth{
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        background-color: rgb(143, 212, 252);
+        border-radius: 50px;
+        margin-top: 1%;
+        margin-left: 50%; 
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+    #fourth_deactivated{
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        background-color: grey;
+        border-radius: 50px;
+        margin-top: 1%;
+        margin-left: 50%; 
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+    #fourth:hover{
+        cursor: pointer;
+    }
+    #fifth{
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        background-color: rgb(143, 212, 252);
+        border-radius: 50px; 
+        margin-top: 1%;
+        margin-left: 45%;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; 
+    }
+    #fifth_deactivated{
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        background-color: grey;
+        border-radius: 50px; 
+        margin-top: 1%;
+        margin-left: 45%;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; 
+    }
+    #fifth:hover{
+        cursor: pointer;
+    }
+}
+@media (max-width: 992px){
+    body{
+        background-color: rgb(255, 255, 255);
+    }
+    .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+        border-bottom: 2px solid rgb(201, 201, 201);
+        padding: 1%;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        left: 65%;
+    }
+    
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+    
+    #acc:hover .dropdown-content {
+        display: block;
+    }
+    #header{
+        margin: auto;
+        width: 50%;
+        background-color: rgb(143, 212, 252);
+        padding: 50px;
+        border-radius: 35px;
+        margin-top: 3%;
+    }
+    #header>h1{
+        color: white;
+        text-align: center;
+    }
+    
+    
+    #first{
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        background-color: rgb(143, 212, 252);
+        border-radius: 50px;
+        margin-top: 2%;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+    #first:hover{
+        cursor: pointer;
+    }
+    .play_div{
+        position: absolute;
+        height: 15%;
+        width: 61%;
+        border-radius: 50px;
+        background-color: blue;
+        display: none;
+    }
+    #play_div_first{
+        right: 20%;
+        top: 38%;
+    }
+    #play_div_second{
+        right: 20%;
+        top: 50%;
+    }
+    #play_div_third{
+        right: 11%;
+    }
+    #play_div_fourth{
+        right: 7%;
+    }
+    #play_div_fifth{
+        right: 11%;
+    }
+    .closer_icon{
+        margin-left: 4%;
+        margin-top: -24%;
+        width: 50px;
+        color: rgb(213 213 213);
+    }
+    .closer_icon:hover{
+        cursor: pointer;
+    }
+    .btn_play{
+        margin-top: 27%;
+        margin-left: 18%;
+    }
+    #second{
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        background-color: rgb(143, 212, 252);
+        border-radius: 50px;
+        margin-top: 1%;
+        margin-left: 40%;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+    #second_deactivated{
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        background-color: grey;
+        border-radius: 50px;
+        margin-top: 1%;
+        margin-left: 40%;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+    #second:hover{
+        cursor: pointer;
+    }
+    #third{
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        background-color: rgb(143, 212, 252);
+        border-radius: 50px;
+        margin-top: 1%;
+        margin-left: 45%;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+    #third_deactivated{
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        background-color: grey;
+        border-radius: 50px;
+        margin-top: 1%;
+        margin-left: 45%;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+    #third:hover{
+        cursor: pointer;
+    }
+    #fourth{
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        background-color: rgb(143, 212, 252);
+        border-radius: 50px;
+        margin-top: 1%;
+        margin-left: 50%; 
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+    #fourth_deactivated{
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        background-color: grey;
+        border-radius: 50px;
+        margin-top: 1%;
+        margin-left: 50%; 
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+    #fourth:hover{
+        cursor: pointer;
+    }
+    #fifth{
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        background-color: rgb(143, 212, 252);
+        border-radius: 50px; 
+        margin-top: 1%;
+        margin-left: 45%;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; 
+    }
+    #fifth_deactivated{
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        background-color: grey;
+        border-radius: 50px; 
+        margin-top: 1%;
+        margin-left: 45%;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; 
+    }
+    #fifth:hover{
+        cursor: pointer;
+    }
+}
+@media (min-width: 993px){
+    body{
+        background-color: rgb(255, 255, 255);
+    }
+    .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+        border-bottom: 2px solid rgb(201, 201, 201);
+        padding: 1%;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        left: 85%;
+    }
+    
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+    
+    #acc:hover .dropdown-content {
+        display: block;
+    }
+    #header{
+        margin: auto;
+        width: 50%;
+        background-color: rgb(143, 212, 252);
+        padding: 50px;
+        border-radius: 35px;
+        margin-top: 3%;
+    }
+    #header>h1{
+        color: white;
+        text-align: center;
+    }
+    
+    
+    
+    #first{
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        background-color: rgb(143, 212, 252);
+        border-radius: 50px;
+        margin-top: 2%;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+    #first:hover{
+        cursor: pointer;
+    }
+    .play_div{
+        position: absolute;
+        height: 22%;
+        width: 26%;
+        border-radius: 50px;
+        background-color: blue;
+        display: none;
+    }
+    #play_div_first{
+        right: 37%;
+        top: 57%;
+    }
+    #play_div_second{
+        right: 44%;
+        top: 71%;
+    }
+    #play_div_third{
+        right: 43%;
+    }
+    #play_div_fourth{
+        right: 38%;
+    }
+    #play_div_fifth{
+        right: 43%;
+    }
+    .closer_icon{
+        margin-left: 4%;
+        margin-top: -24%;
+        width: 50px;
+        color: rgb(213 213 213);
+    }
+    .closer_icon:hover{
+        cursor: pointer;
+    }
+    .btn_play{
+        margin-top: 30%;
+        margin-left: 21%;
+    }
+    #second{
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        background-color: rgb(143, 212, 252);
+        border-radius: 50px;
+        margin-top: 1%;
+        margin-left: 40%;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+    #second_deactivated{
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        background-color: grey;
+        border-radius: 50px;
+        margin-top: 1%;
+        margin-left: 40%;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+    #second:hover{
+        cursor: pointer;
+    }
+    #third{
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        background-color: rgb(143, 212, 252);
+        border-radius: 50px;
+        margin-top: 1%;
+        margin-left: 45%;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+    #third_deactivated{
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        background-color: grey;
+        border-radius: 50px;
+        margin-top: 1%;
+        margin-left: 45%;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+    #third:hover{
+        cursor: pointer;
+    }
+    #fourth{
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        background-color: rgb(143, 212, 252);
+        border-radius: 50px;
+        margin-top: 1%;
+        margin-left: 50%; 
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+    #fourth_deactivated{
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        background-color: grey;
+        border-radius: 50px;
+        margin-top: 1%;
+        margin-left: 50%; 
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+    #fourth:hover{
+        cursor: pointer;
+    }
+    #fifth{
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        background-color: rgb(143, 212, 252);
+        border-radius: 50px; 
+        margin-top: 1%;
+        margin-left: 45%;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; 
+    }
+    #fifth_deactivated{
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        background-color: grey;
+        border-radius: 50px; 
+        margin-top: 1%;
+        margin-left: 45%;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; 
+    }
+    #fifth:hover{
+        cursor: pointer;
+    }
+}
+@media (min-width: 2000px){
+    body{
+        background-color: rgb(255, 255, 255);
+    }
+    .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+        border-bottom: 2px solid rgb(201, 201, 201);
+        padding: 1%;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        left: 92%;
+    }
+    
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+    
+    #acc:hover .dropdown-content {
+        display: block;
+    }
+    #header{
+        margin: auto;
+        width: 50%;
+        background-color: rgb(143, 212, 252);
+        padding: 50px;
+        border-radius: 35px;
+        margin-top: 3%;
+    }
+    #header>h1{
+        color: white;
+        text-align: center;
+    }
+    
+    
+    
+    #first{
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        background-color: rgb(143, 212, 252);
+        border-radius: 50px;
+        margin-top: 2%;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+    #first:hover{
+        cursor: pointer;
+    }
+    .play_div{
+        position: absolute;
+        height: 15%;
+        width: 20%;
+        border-radius: 50px;
+        background-color: blue;
+        display: none;
+    }
+    #play_div_first{
+        right: 40%;
+        top: 43%;
+    }
+    #play_div_second{
+        right: 48%;
+        top: 54%;
+    }
+    #play_div_third{
+        right: 43%;
+    }
+    #play_div_fourth{
+        right: 38%;
+    }
+    #play_div_fifth{
+        right: 43%;
+    }
+    .closer_icon{
+        margin-left: 4%;
+        margin-top: -24%;
+        width: 50px;
+        color: rgb(213 213 213);
+    }
+    .closer_icon:hover{
+        cursor: pointer;
+    }
+    .btn_play{
+        margin-top: 28%;
+        margin-left: 27%;
+    }
+    #second{
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        background-color: rgb(143, 212, 252);
+        border-radius: 50px;
+        margin-top: 1%;
+        margin-left: 40%;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+    #second_deactivated{
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        background-color: grey;
+        border-radius: 50px;
+        margin-top: 1%;
+        margin-left: 40%;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+    #second:hover{
+        cursor: pointer;
+    }
+    #third{
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        background-color: rgb(143, 212, 252);
+        border-radius: 50px;
+        margin-top: 1%;
+        margin-left: 45%;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+    #third_deactivated{
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        background-color: grey;
+        border-radius: 50px;
+        margin-top: 1%;
+        margin-left: 45%;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+    #third:hover{
+        cursor: pointer;
+    }
+    #fourth{
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        background-color: rgb(143, 212, 252);
+        border-radius: 50px;
+        margin-top: 1%;
+        margin-left: 50%; 
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+    #fourth_deactivated{
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        background-color: grey;
+        border-radius: 50px;
+        margin-top: 1%;
+        margin-left: 50%; 
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+    #fourth:hover{
+        cursor: pointer;
+    }
+    #fifth{
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        background-color: rgb(143, 212, 252);
+        border-radius: 50px; 
+        margin-top: 1%;
+        margin-left: 45%;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; 
+    }
+    #fifth_deactivated{
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        background-color: grey;
+        border-radius: 50px; 
+        margin-top: 1%;
+        margin-left: 45%;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; 
+    }
+    #fifth:hover{
+        cursor: pointer;
+    }
+}
